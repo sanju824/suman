@@ -1,0 +1,125 @@
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f5e6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            background-color: #e4f1e7;
+        }
+
+        /* Heading Styles */
+        h1, h2 {
+            color: #4CAF50;
+            font-family: 'Verdana', sans-serif;
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+
+        /* Image Section */
+        .image-container {
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Paragraph & Event Details */
+        .details {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .details h3 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .details p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+
+        /* RSVP Form */
+        .rsvp-form {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .rsvp-form label {
+            display: block;
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .rsvp-form input, .rsvp-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .rsvp-form textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .rsvp-form button {
+            background-color: #4CAF50;
+            color: white;
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .rsvp-form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            .rsvp-form button {
+                width: 100%;
+            }
+        }
